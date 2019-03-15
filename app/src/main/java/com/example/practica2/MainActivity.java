@@ -33,13 +33,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onLongClick(View v) {
-        Toast.makeText(getApplicationContext(), User.getText(), Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),Password.getText(), Toast.LENGTH_LONG).show();
         return false;
     }
 
     @Override
     public void onClick(View v) {
 
-        Toast.makeText(getApplicationContext(),Password.getText() ,Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),User.getText() ,Toast.LENGTH_LONG).show();
     }
 }
